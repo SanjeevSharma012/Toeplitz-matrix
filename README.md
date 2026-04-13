@@ -50,6 +50,8 @@ For each element:
 Compare with top-left element
 If mismatch found → return false
 If no mismatch → return true
+
+
 🔹 Code Implementation (Java)
 class Solution {
     public boolean isToeplitz(int[][] mat) {
@@ -63,6 +65,8 @@ class Solution {
         return true;
     }
 }
+
+
 🔹 Time & Space Complexity
 ⏱ Time Complexity: O(m × n)
 🧠 Space Complexity: O(1) (no extra space used)
